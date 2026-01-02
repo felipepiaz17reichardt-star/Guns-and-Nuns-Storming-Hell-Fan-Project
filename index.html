@@ -265,6 +265,24 @@
       border-top: 1px solid rgba(255, 0, 0, 0.25);
       background: linear-gradient(to top, #120000, #080000);
     }
+
+    .steam-widget {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 50px;
+}
+
+.steam-widget iframe {
+  width: 646px;
+  height: 190px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow:
+    0 0 30px rgba(102, 192, 244, 0.25),
+    0 20px 60px rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(102, 192, 244, 0.4);
+}
+
   </style>
 </head>
 
@@ -351,6 +369,15 @@
     </div>
 
   </div>
+
+  <div class="steam-widget">
+  <iframe
+    src="https://store.steampowered.com/widget/3976570/?t=Official%20Steam%20widget%20for%20Guns%20and%20Nuns%3A%20Storming%20Hell.%20Add%20to%20your%20wishlist%20or%20play%20the%20demo%20on%20Steam."
+    frameborder="0"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
 
   <footer>
     Fan site created to promote the game. All rights belong to their respective owners.
